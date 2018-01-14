@@ -1,148 +1,141 @@
+/*Fonts*/
+/*Color Scheme */
+/* Some Other Schemes
+	$main-color:#7289da;
+	$secondary-color: #99aab5;
 
+	$main-color:#ae1313;
+	$secondary-color: #bd3449;
+
+	$main-color:#34193d;
+	$secondary-color: #694280;
+*/
+/*Dimensions*/
+body {
+  background-color: #f4f4f4;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto; }
+
+header {
+  background: #000;
+  color: #fff;
+  height: 60px; }
+
+#logo {
+  float: left; }
+
+nav {
+  float: right; }
+  nav ul {
+    padding-top: 4px; }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      padding-right: 20px; }
+      nav ul li a {
+        color: #ffff;
+        text-decoration: none; }
+      nav ul li a:hover, nav ul li a.active {
+        color: #85758b; }
+
+.showcase {
+  height: 400px; }
+  .showcase .container {
+    height: 400px;
+    overflow: auto; }
+
+.showcase-inner {
+  height: 150px; }
+
+.showcase, .showcase-inner {
+  background: url("../img/city.jpg") no-repeat 0 -400px;
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.4em; }
+  .showcase h1, .showcase-inner h1 {
+    background: #000;
+    padding: 20px;
+    opacity: 0.7; }
+
+.button, .button-a, .button-b {
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  border: none; }
+
+.button-a {
+  background: #34193d; }
+
+.button-b {
+  background: #000; }
+
+.button-a:hover {
+  background: #483050; }
+
+.button-b:hover {
+  background: #1a1a1a; }
+
+.section-a {
+  background: #34193d;
+  color: #fff;
+  padding: 0.8em;
+  text-align: center;
+  font-size: 1.1em; }
+
+.section-b {
+  padding: 20px 0; }
+
+.box {
+  width: 24%;
+  float: left;
+  text-align: center; }
+
+.fa {
+  font-size: 55px;
+  color: #34193d; }
+
+.home-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .home-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff; }
+
+footer {
+  margin: 10px 0;
+  background: #000;
+  color: #fff; }
+
+.port {
+  width: 24%;
+  float: left;
+  padding-right: 10px;
+  text-align: center; }
+  .port img {
+    width: 100%; }
+
+#contact div {
+  background: #fff;
+  padding: 20px;
+  margin: 5px 0; }
+  #contact div input[type="text"] {
+    width: 100%;
+    padding: 4px;
+    height: 30px; }
+  #contact div input[type="textarea"] {
+    width: 100%;
+    padding: 4px;
+    height: 70px; }
 
 /*# sourceMappingURL=styles.css.map */
-
-body{
-    background-color: #f4f4f4;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height: 1.4em;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: auto;
-}
-
-header{
-    background: #333;
-    color:#fff;
-    height: 60px;
-}
-
-#logo{
-    float:left;
-}
-
-nav{
-    float:right;
-}
-nav ul{
-    padding-top: 4px;
-}
-nav li{
-    list-style:none;
-    display: inline;
-    padding-right:20px;
-}
-
-nav a{
-    color:#ffff;
-    text-decoration: none;
-}
-
-nav a :hover ,nav a.active{
-    color:cadetblue;
-}
-
-.showcase{
-    height: 400px;
-}
-.showcase-inner{
-    height: 150px;
-}
-.showcase .container{
-    height: 400px;
-    overflow: auto;
-}
-.showcase,.showcase-inner{
-    background:url('../img/city.jpg') no-repeat 0 -400px;
-    font-size: 21px;
-    color: #fff;
-    line-height: 1.4em;
-}
-
-.showcase h1 ,.showcase-inner h1{
-    background: #000000;
-    padding: 20px;
-    opacity: 0.7;
-}
-.button-a ,.button-b{
-    background:rgb(207, 76, 207);
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-}
-
-.section-a{
-    background: purple;
-    color:#fff;
-    padding: 0.8em;
-    text-align: center;
-    font-size:1.1em;
-
-}
-.section-b{
-    padding: 20px 0;
-}
-
-.box{
-    width: 24%;
-    float: left;
-    text-align: center;
-}
-.fa{
-    font-size: 60px;
-    color:purple;
-}
-
-.home-list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.home-list li{
-    padding:10px;
-    margin-bottom: 10px;
-    background: #fff;
-}
-
-footer{
-    margin: 10px 0;
-    background: #000000;
-    color: #fff;
-}
-
-.port{
-    width: 24%;
-    float: left;
-    padding-right:10px;
-    text-align:center;
-}
-
-.port img{
-    width: 100%;
-}
-
-#contact div{
- background :#fff;
- padding: 20px;
- margin: 5px 0;
-}
-
-#contact  input[type="text"]{
-    width: 100%;
-    padding: 4px;
-    height: 30px;
-}
-
-#contact input[type="textarea"]{
-    width: 100%;
-    padding: 4px;
-    height: 70px;
-}
