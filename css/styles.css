@@ -45,7 +45,7 @@ nav {
         color: #ffff;
         text-decoration: none; }
       nav ul li a:hover, nav ul li a.active {
-        color: #85758b; }
+        color: #f1948a; }
 
 .showcase {
   height: 400px; }
@@ -73,19 +73,19 @@ nav {
   border: none; }
 
 .button-a {
-  background: #34193d; }
+  background: #e74c3c; }
 
 .button-b {
   background: #000; }
 
 .button-a:hover {
-  background: #483050; }
+  background: #e95e50; }
 
 .button-b:hover {
   background: #1a1a1a; }
 
 .section-a {
-  background: #34193d;
+  background: #e74c3c;
   color: #fff;
   padding: 0.8em;
   text-align: center;
@@ -101,7 +101,7 @@ nav {
 
 .fa {
   font-size: 55px;
-  color: #34193d; }
+  color: #e74c3c; }
 
 .home-list {
   list-style: none;
@@ -137,5 +137,3 @@ footer {
     width: 100%;
     padding: 4px;
     height: 70px; }
-
-/*# sourceMappingURL=styles.css.map */
